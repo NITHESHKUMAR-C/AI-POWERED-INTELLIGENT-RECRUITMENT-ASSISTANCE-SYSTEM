@@ -1,0 +1,21 @@
+{
+  "name": "ai-recruitment-assistance-system",
+  "version": "1.0.0",
+  "description": "AI-Powered Intelligent Recruitment Assistance System",
+  "scripts": {
+    "frontend": "npm --prefix frontend run dev",
+    "backend": "python -m uvicorn backend.main:app --host 127.0.0.1 --port 8000 --reload",
+    "build:frontend": "npm --prefix frontend run build"
+  },
+  "keywords": [
+    "recruitment",
+    "fastapi",
+    "react",
+    "ai",
+    "nlp",
+    "resume-parser",
+    "shap"
+  ],
+  "author": "",
+  "license": "ISC"
+}
